@@ -5,3 +5,4 @@ Setting up the debugger is a real pain. But here are a few templates to make you
 This repo contains debugging templates for:
 
 - regular node.js
+- server-side typescript
