@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug",
+      "name": "launch node",
       "program": "${workspaceFolder}/index.js",
       "skipFiles": [
         "${workspaceFolder}/node_modules/**/*.js",
