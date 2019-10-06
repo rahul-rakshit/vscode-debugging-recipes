@@ -1,5 +1,5 @@
 {
-  "name": "attach_transpiled_typescript_server",
+  "name": "attach_typescript_server",
   "version": "0.1.0",
   "description": "attaching to transpiled TS server",
   "scripts": {
