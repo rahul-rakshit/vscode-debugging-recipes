@@ -7,8 +7,10 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "debug",
+      "name": "Launch Program",
+      "runtimeExecutable": "nodemon",
       "program": "${workspaceFolder}/index.js",
+      "restart": true,
       "skipFiles": [
         "${workspaceFolder}/node_modules/**/*.js",
         "<node_internals>/**/*.js"

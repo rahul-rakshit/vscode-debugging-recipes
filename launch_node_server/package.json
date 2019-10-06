@@ -1,0 +1,16 @@
+{
+  "name": "launch_node_server",
+  "version": "0.1.0",
+  "description": "lauching basic node server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=1369 index.js"
+  },
+  "author": "Rahul Rakshit",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
