@@ -1,5 +1,5 @@
 {
-  "name": "typescript_node_debugging",
+  "name": "launch_transpiled_typescript",
   "version": "0.1.0",
   "description": "debugging typescript node application",
   "main": "index.js",
