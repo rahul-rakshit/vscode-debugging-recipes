@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    ports:
+      - "1357:1357"
+      - "1369:1369"
+    volumes:
+      - ./src:/src
