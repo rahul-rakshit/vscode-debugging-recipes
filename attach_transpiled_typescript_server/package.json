@@ -1,0 +1,19 @@
+{
+  "name": "attach_transpiled_typescript_server",
+  "version": "0.1.0",
+  "description": "attaching to transpiled TS server",
+  "scripts": {
+    "start": "tsc -w & nodemon --inspect=1369 lib/index.js",
+    "build": "tsc"
+  },
+  "author": "Rahul Rakshit",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.7.11",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "typescript": "^3.6.3"
+  }
+}
