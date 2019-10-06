@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  main:
+    build:
+      context: ./
+    ports:
+      - "1357:1357"
+      - "1369:1369"
+    entrypoint: "/bin/bash -c"
+    command: [npm run dev]
